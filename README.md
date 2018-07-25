@@ -14,14 +14,16 @@ Summary: Provides interface to 'sparsepp' - fast, memory efficient hash map.  It
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-sparsepp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-sparsepp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-sparsepp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-sparsepp-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-sparsepp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-sparsepp-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-sparsepp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-sparsepp-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-sparsepp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-sparsepp-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-sparsepp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-sparsepp-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sparsepp/badges/version.svg)](https://anaconda.org/conda-forge/r-sparsepp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sparsepp/badges/downloads.svg)](https://anaconda.org/conda-forge/r-sparsepp)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--sparsepp-green.svg)](https://anaconda.org/conda-forge/r-sparsepp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-sparsepp.svg)](https://anaconda.org/conda-forge/r-sparsepp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-sparsepp.svg)](https://anaconda.org/conda-forge/r-sparsepp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-sparsepp.svg)](https://anaconda.org/conda-forge/r-sparsepp) |
 
 Installing r-sparsepp
 =====================
