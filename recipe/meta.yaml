@@ -16,6 +16,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
+  merge_build_host: True  # [win]
   number: 2001
   noarch: generic
   rpaths:
@@ -24,6 +25,8 @@ build:
 
 requirements:
   build:
+    - {{ compiler('cxx') }}
+  host:
     - {{ compiler('cxx') }}
   host:
     - r-base
