@@ -15,8 +15,6 @@ source:
   sha256: 2999b3a393ccac46b1702b6def030360d81ec32735faab42f0c3ae790b2a4171
 
 build:
-  merge_build_host: True  # [win]
-  merge_build_host: True  # [win]
   number: 2001
   noarch: generic
   rpaths:
@@ -24,10 +22,6 @@ build:
     - lib/
 
 requirements:
-  build:
-    - {{ compiler('cxx') }}
-  host:
-    - {{ compiler('cxx') }}
   host:
     - r-base
 
