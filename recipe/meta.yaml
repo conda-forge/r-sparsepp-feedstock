@@ -15,7 +15,7 @@ source:
   sha256: 2999b3a393ccac46b1702b6def030360d81ec32735faab42f0c3ae790b2a4171
 
 build:
-  number: 2001
+  number: 2002
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,6 +36,7 @@ test:
 about:
   home: https://cran.r-project.org/package=sparsepp
   license: BSD_3_clause
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_3_clause'
   summary: Provides interface to 'sparsepp' - fast, memory efficient hash map.  It is derived
     from Google's excellent 'sparsehash' implementation. We believe 'sparsepp' provides
     an unparalleled combination of performance and memory usage,  and will outperform
@@ -46,10 +47,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
+    - conda-forge/r
     - CurtLH
-    - dpryan79
