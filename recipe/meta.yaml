@@ -36,6 +36,7 @@ test:
 about:
   home: https://cran.r-project.org/package=sparsepp
   license: BSD_3_clause
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_3_clause'
   summary: Provides interface to 'sparsepp' - fast, memory efficient hash map.  It is derived
     from Google's excellent 'sparsehash' implementation. We believe 'sparsepp' provides
     an unparalleled combination of performance and memory usage,  and will outperform
@@ -47,10 +48,4 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
     - CurtLH
-    - dpryan79
