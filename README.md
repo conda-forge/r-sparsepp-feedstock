@@ -5,11 +5,9 @@ Home: https://cran.r-project.org/package=sparsepp
 
 Package license: BSD_3_clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sparsepp-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides interface to 'sparsepp' - fast, memory efficient hash map.  It is derived from Google's excellent 'sparsehash' implementation. We believe 'sparsepp' provides an unparalleled combination of performance and memory usage,  and will outperform your compiler's unordered_map on both counts.  Only Google's 'dense_hash_map' is consistently faster, at the cost of much greater  memory usage (especially when the final size of the map is not known in advance).
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-sparsepp` from the `conda-forge` channel can be achieved by adding
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-sparsepp` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
